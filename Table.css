@@ -1,0 +1,65 @@
+h2{
+  text-align: center;
+ color: lightseagreen;
+  text-shadow: 20px 10px 15px ;
+}
+
+
+p{
+  text-align: center;
+  font-family: cursive;
+}
+
+
+table{
+  font-size: large;
+  border-spacing: 30px;
+  text-align: center;
+  position: relative;  
+  right: -20%;
+  font-family: cursive;
+}
+
+
+.green{
+  background-color: green;
+}
+
+
+.orange{
+  background-color:orange;
+}
+
+
+.red{
+  background-color: red;
+  }
+
+
+.powder{
+  background-color: powderblue;
+}
+
+
+.mediumseagreen{
+  background-color: mediumseagreen;
+}
+
+
+.Image{
+  background-image: url("D:/Ajaypal Singh/Fun/Corona.jpg");
+}
+
+
+#image{
+  width: 25%;
+  position: relative;
+  right: -38%;
+}
+
+
+.paragraph{
+  font-size: large;
+}
+
+
