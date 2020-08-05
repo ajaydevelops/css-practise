@@ -1,78 +1,110 @@
-h2{
-  color: lightseagreen;
-  text-shadow: 20px 10px 15px ;
-}
 
 
-p{
-  font-size: large;
-  font-family: cursive;
-}
-
-
-table{
-  font-size: large;
-  border-spacing: 30px;
-  text-align: center;
-  position: relative;  
-  right: -20%;
-  font-family: cursive;
-}
-
-
-.green{
-  background-color: green;
-}
-
-
-.orange{
-  background-color:orange;
-}
-
-
-.red{
-  background-color: red;
-  }
-
-
-.powder{
-  background-color: powderblue;
-}
-
-
-.mediumseagreen{
-  background-color: mediumseagreen;
-}
-
-
-.Image{
-  background-image: url("Corona.jpg");
-}
-
-
-#image{
-  position: relative;
-  height: 300px;
-  right: -37%;
-}
-
-
-#brazil{
-  position: relative;
-  height: 300px;
+img {
+  height: 350px;
+  width: 350px;
   padding: 10px;
   border: 20px solid steelblue;
 }
 
 
-.div1{
+p {
+  font-size: large;
+  font-family: cursive;
+}
+
+
+table {
+  font-size: large;
+  border-spacing: 30px;
+  text-align: center;  
+  margin-left: 300px;
+  font-family: cursive;
+  border: 10px solid lightgray;
+  background-image: url("Corona.jpg");
+  padding: 10px;
+}
+
+
+tr.green {
+  background-color: green;
+}
+
+
+tr.orange {
+  background-color:orange;
+}
+
+
+tr.red {
+  background-color: red;
+  }
+
+
+tr.powder {
+  background-color: powderblue;
+}
+
+
+tr.mediumseagreen {
+  background-color: mediumseagreen;
+}
+
+
+div.div1 {
   text-align: center;
 }
 
-.div2{
-  text-align: left;
+div.div2 {
+  margin-left: 20px;
+ }
+
+
+div.div3 {
+  text-align: right;
   position: relative;
-  right: -2%
+  bottom: 640px;
+  margin-right: 20px;
 }
 
 
+div.div4 {
+  margin-left: 20px;
+  position: relative;
+  bottom: 550px
+}
+
+
+div.div5 {
+  text-align: right;
+  margin-right: 20px;
+  position: relative;
+  bottom: 1200px; 
+} 
+
+
+#style {
+  text-align: center;
+  color: darkblue;
+  text-shadow: 5px 6px 10px
+}
+
+
+#image {
+  margin-left: 34%;
+  width:450px; 
+  height: 280px;
+  border-style: none;
+}
+
+
+#brazil,#russia {
+  width: 410px;
+  text-align: center;
+}
+
+
+#india,#southafrica {
+  width-right: 205px;
+  text-align: center;
+}
