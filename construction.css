@@ -1,0 +1,108 @@
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+
+h3 {
+  text-align: center;
+}
+
+
+.links {
+  margin: auto;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+  background-color: black;
+  width: 200px;
+}
+
+
+body {
+  background-image: url("Construction.jpg");
+  background-size: cover;
+  width: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+img  {
+  width: 350px;
+  height: 500px;
+}
+
+
+#logo-view {
+  width: 60px;
+  height: 60px;
+}
+
+
+.link-view {
+  color: white;
+}
+
+
+#border-view {
+  border: 3px solid slategrey;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+}
+
+
+#center-view {
+  margin-top: 50px;
+  font-size: x-large;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#aside-view {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  background-color: darkgoldenrod;
+  font-size: large;
+  border: 3px solid black;
+  border-radius: 30px;
+  float: right;
+  position: relative;
+  bottom: 260px;  
+}
+
+
+#projects-view {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.part-of-projects-view {
+  display: flex;
+  flex-direction: column;
+  background-color: lightseagreen;;
+  color: white;
+  width: 350px;
+  height: 645px;
+  margin-left: 6px;
+  border-radius: 0px 45px 45px 0px;
+  margin-top: 300px;
+}
+
+
+
+
+
+
+
